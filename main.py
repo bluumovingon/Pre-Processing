@@ -35,7 +35,7 @@ STEM_EXCEPTIONS = {
     # Domain telekomunikasi
     'paket', 'jaringan', 'sinyal', 'kuota', 'pulsa', 'internet',
     'aplikasi', 'login', 'loading', 'verifikasi', 'notifikasi',
-    'transaksi', 'pembayaran', 'pelayanan', 'berlangganan', 'registrasi',
+    'transaksi', 'pembayaran', 'pelayanan', 'layanan', 'berlangganan', 'langganan', 'registrasi',
     'promo', 'bonus', 'diskon', 'tagihan', 'pascabayar', 'prabayar',
     'provider', 'operator', 'server', 'error', 'bug', 'lag', 'hang',
     'otp', 'restart', 'download', 'upload', 'streaming',
@@ -43,6 +43,8 @@ STEM_EXCEPTIONS = {
     'jelas', 'kualitas', 'gratis', 'stabil', 'malas', 'puas',
     'habis', 'bagus', 'cepat', 'lambat', 'murah', 'mahal',
     'aktif', 'lancar', 'sesuai', 'guna', 'masuk',
+    'boros', 'parah', 'susah', 'sulit', 'gagal', 'hilang',
+    'kecewa', 'rugi', 'busuk', 'potong', 'hangus',
 }
 
 # Kata-kata berkonotasi negatif — difilter dari word cloud Positif
@@ -53,6 +55,8 @@ NEGATIVE_LEXICON = {
     'gagal', 'rusak', 'hancur', 'mati', 'hilang', 'hangus', 'potong',
     'sedot', 'boros', 'rugi', 'sayang', 'busuk', 'ampas',
     'loading', 'aneh', 'ribet', 'rumit', 'ganggu',
+    'salah', 'turun', 'keluh', 'kendala', 'ilang',
+    'kikir', 'habis', 'turunin', 'sumpah', 'gara', 'iklan',
     # Token negasi (negatif di konteks positif)
     'tidak_bisa', 'tidak_jelas', 'tidak_stabil', 'tidak_sesuai',
     'tidak_guna', 'tidak_masuk', 'tidak_pernah', 'tidak_lancar',
@@ -60,7 +64,7 @@ NEGATIVE_LEXICON = {
     # Kata harapan/keluhan tersirat
     'moga', 'tolong', 'mohon',
     # Kata netral tapi noisy di konteks positif
-    'sisa', 'cek', 'jaring',
+    'sisa', 'cek', 'jaring', 'ngeleg',
 }
 
 # Kata-kata berkonotasi positif — difilter dari word cloud Negatif
@@ -69,6 +73,7 @@ POSITIVE_LEXICON = {
     'puas', 'senang', 'suka', 'best', 'gratis', 'stabil', 'praktis',
     'nyaman', 'setia', 'percaya', 'manfaat', 'reward', 'hadiah',
     'terima_kasih', 'terimakasih',
+    'lumayan', 'good', 'top', 'mantep', 'aman', 'untung',
 }
 
 # ────────────────────────────────────────────────────────────────────────────────
@@ -270,15 +275,28 @@ def step_3_preprocessing(df_clean):
     nltk_stops = set(stopwords.words('indonesian'))
     sastrawi_stops = set(StopWordRemoverFactory().get_stop_words())
     custom_stops = {
-        'telkomsel', 'mytelkomsel', 'aplikasi', 'app', 'apk',
-        'nya', 'nih', 'sih', 'deh', 'dong', 'kan', 'tuh',
+        # Identitas aplikasi (noise di semua word cloud)
+        'telkomsel', 'mytelkomsel', 'aplikasi', 'app', 'apk', 'telkom',
+        # Partikel dan kata seru
+        'nya', 'nih', 'sih', 'deh', 'dong', 'kan', 'tuh', 'lah', 'loh', 'woi',
         'kak', 'min', 'admin', 'bintang', 'kasih',
+        # Kata penghubung/fungsional
         'kali', 'versi', 'banget', 'sangat', 'sekali',
         'bisa', 'ada', 'dari', 'yang', 'untuk',
         'dengan', 'ini', 'itu', 'di', 'ke', 'pada', 'dan', 'atau',
-        'saya', 'kamu', 'kami', 'kita', 'mereka', 'dia',
+        'saya', 'kamu', 'kami', 'kita', 'mereka', 'dia', 'kau', 'nge',
+        # Filler / kata sehari-hari tanpa makna analitis
+        'dah', 'udah', 'udh', 'gitu', 'gito', 'cuman', 'cuma', 'doang',
+        'mending', 'kayak', 'kaya', 'biar', 'biarin', 'pas', 'gin', 'begini',
+        'ampun', 'mulu', 'terus', 'kesini', 'dikit', 'sedikit',
+        'gimana', 'bngt', 'yaa', 'yah', 'ngak', 'nggak',
+        'kadang', 'kadangan', 'emang', 'memang', 'aja', 'saja',
+        'juga', 'masih', 'sama', 'lagi', 'pernah', 'sekarang',
+        'coba', 'pilih', 'bikin', 'main', 'mah', 'suruh', 'maaf',
+        'ribu', 'jam', 'minggu', 'kota', 'terima', 'semoga', 'moga',
         # Token negasi generik yang tidak informatif di word cloud
-        'tidak_ada', 'belum_ada', 'tidak_punya',
+        'tidak_ada', 'belum_ada', 'tidak_punya', 'tidak_di',
+        'tidak_ngotak', 'tidak_masuk',
     }
     # CATATAN: 'tidak', 'belum', 'bukan' TIDAK masuk stopwords
     # karena sudah digabung jadi token negasi (tidak_X) di langkah sebelumnya.
