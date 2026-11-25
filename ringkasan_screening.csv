@@ -1,0 +1,6 @@
+Tahap,Dibuang,Sisa,Persentase_Sisa,Keterangan
+1. Data Mentah (Raw),0,10000,100.0,Hasil scraping awal
+2. Hapus Kosong (Null/Empty),0,10000,100.0,Teks kosong/NaN
+3. Hapus Duplikat Persis,1253,8747,87.47,Teks identik persis
+4. Hapus Terlalu Pendek (<3 kata),848,7899,78.99,Minim konteks keluhan/pujian
+5. Hapus Near-Duplicate (Cosine > 0.9),57,7842,78.42,"Hash norm: 19, TF-IDF cosine > 0.9: 38"

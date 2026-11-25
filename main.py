@@ -199,6 +199,9 @@ NEGATIVE_LEXICON = {
     'moga', 'tolong', 'mohon',
     # Kata netral tapi noisy di konteks positif
     'sisa', 'cek', 'jaring', 'ngeleg',
+    # Keluhan/negatif tambahan yang sering muncul di ulasan rating 4-5
+    'kesal', 'kesel', 'bangkrut', 'spam', 'restart', 'paksa',
+    'hapus', 'darurat', 'putus', 'gila', 'lupa',
 }
 
 # Kata-kata berkonotasi positif — dipakai untuk word cloud Negatif & validasi leksikon (C.2)
@@ -683,7 +686,7 @@ def step_3_preprocessing(df_clean):
         'jangan_mahal', 'info', 'hasil', 'proses', 'tawar', 'batas',
         'usaha', 'muncul', 'ekonomi', 'indonesia', 'konsumen',
         # Alasan (A.5): 'tidak_ada' & 'tidak_masuk' dihapus dari daftar buang karena bermakna
-        'belum_ada', 'tidak_punya', 'tidak_di', 'tidak_ngotak',
+        'belum_ada', 'tidak_punya', 'tidak_di', 'tidak_ngotak', 'dll',
     }
     all_stops = nltk_stops.union(sastrawi_stops).union(ENGLISH_BASIC_STOPWORDS).union(custom_stops)
     # Alasan (A.2): Pastikan negasi dan kata kontras/penguat TIDAK masuk daftar stopword final
@@ -1176,7 +1179,9 @@ def step_4_analysis_and_visualization(df_final):
     )
 
     # 2. Word Cloud Positif & Negatif (frekuensi + sentiment-aware filtering + sensor kata kasar)
-    pos_exclude = NEGATIVE_LEXICON.union(NEUTRAL_TOPIC_WORDS)
+    pos_exclude = NEGATIVE_LEXICON.union(NEUTRAL_TOPIC_WORDS).union(NEGATION_WORDS).union(CONTRAST_WORDS).union({
+        'kurang', 'agak', 'terlalu', 'repot', 'tidak_tahu',
+    })
     make_wordcloud_from_freq(
         build_clean_wc_frequencies(corpus_pos, pos_exclude),
         'Word Cloud: Ulasan Positif MyTelkomsel (Rating 4 - 5)',
