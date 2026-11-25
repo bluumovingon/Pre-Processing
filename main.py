@@ -687,6 +687,7 @@ def step_3_preprocessing(df_clean):
         'usaha', 'muncul', 'ekonomi', 'indonesia', 'konsumen',
         # Alasan (A.5): 'tidak_ada' & 'tidak_masuk' dihapus dari daftar buang karena bermakna
         'belum_ada', 'tidak_punya', 'tidak_di', 'tidak_ngotak', 'dll',
+        'gb', 'rb', 'hp', 'ni', 'ku', 'eh',
     }
     all_stops = nltk_stops.union(sastrawi_stops).union(ENGLISH_BASIC_STOPWORDS).union(custom_stops)
     # Alasan (A.2): Pastikan negasi dan kata kontras/penguat TIDAK masuk daftar stopword final
@@ -1304,6 +1305,16 @@ def step_5_modeling_prep(df_final):
 
     df_train.to_csv('train_data.csv', index=False, encoding='utf-8')
     df_test.to_csv('test_data.csv', index=False, encoding='utf-8')
+
+    # Ekspor subset konsisten (bebas kontradiksi langsung rating vs sentimen leksikon)
+    mask_contradict = (
+        ((df_model['sentiment'] == 'Positif') & (df_model['sentimen_leksikon'] == 'Negatif')) |
+        ((df_model['sentiment'] == 'Negatif') & (df_model['sentimen_leksikon'] == 'Positif'))
+    )
+    df_consistent = df_model[~mask_contradict].reset_index(drop=True)
+    df_consistent.to_csv('ulasan_bersih_konsisten.csv', index=False, encoding='utf-8')
+    print(f"🧹 Subset konsisten (tanpa kontradiksi rating vs teks): {len(df_consistent):,}/{len(df_model):,} baris "
+          f"(dibuang {int(mask_contradict.sum()):,} baris kontradiktif) -> 'ulasan_bersih_konsisten.csv'.")
     print(f"✅ Split stratified 80/20 selesai: Train = {len(df_train):,}, Test = {len(df_test):,}")
     print("   Distribusi Train:", df_train['sentiment'].value_counts().to_dict())
     print("   Distribusi Test :", df_test['sentiment'].value_counts().to_dict())

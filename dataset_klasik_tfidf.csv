@@ -114,7 +114,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-24 14:50:39,2026-11-24,9.4.1,1,Negatif,Negatif,kuota mahal tidak_ada bonus kuota malah tidak
 2026-11-24 14:46:26,2026-11-24,9.4.1,1,Negatif,Negatif,jariangan buruk kuota sangat mahal
 2026-11-24 14:35:19,2026-11-24,9.4.0,2,Negatif,Negatif,susah buka
-2026-11-24 14:27:26,2026-11-24,9.4.1,5,Positif,Positif,bonus mura beli paket murah terima_kasih paket gratis mkasih apl tukar poin paket data mkasih
+2026-11-24 14:27:26,2026-11-24,9.4.1,5,Positif,Positif,bonus mura beli paket murah terima_kasih paket gratis apl tukar poin paket data
 2026-11-24 14:07:58,2026-11-24,9.4.1,1,Negatif,Negatif,tidak_bisa paket darurat
 2026-11-24 13:57:40,2026-11-24,Tidak Diketahui,1,Negatif,Negatif,kuota redem tidak_masuk kintil
 2026-11-24 13:56:04,2026-11-24,9.4.1,1,Negatif,Negatif,server error beli tunggu rumit amat harga pulsa update kocak banget
@@ -188,7 +188,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-24 08:02:28,2026-11-24,9.3.0,1,Negatif,Negatif,aktif kuranginpulsa ambilin padahal pakai wifi paket jugagimana cmakin aneh
 2026-11-24 08:02:19,2026-11-24,9.4.1,1,Negatif,Negatif,lambat lambat buruk tapi tidak_ubah
 2026-11-24 07:48:30,2026-11-24,9.3.0,2,Negatif,Netral,data cepat habis
-2026-11-24 07:44:06,2026-11-24,9.4.0,1,Negatif,Negatif,beli pulsa tidak pakai potong aneh bet
+2026-11-24 07:44:06,2026-11-24,9.4.0,1,Negatif,Negatif,beli pulsa tidak pakai potong aneh banget
 2026-11-24 07:31:05,2026-11-24,9.4.1,5,Positif,Netral,sukses yahh
 2026-11-24 07:28:27,2026-11-24,9.4.1,5,Positif,Netral,menang mobil byd
 2026-11-24 07:16:48,2026-11-24,9.3.0,3,Netral,Netral,kurang sinyal
@@ -264,7 +264,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-23 21:07:53,2026-11-23,Tidak Diketahui,1,Negatif,Netral,woy telkomselgw klaim ekstra gembira paket belum nipu
 2026-11-23 21:06:09,2026-11-23,9.3.0,1,Negatif,Negatif,jaringan buruk pepek anj anj
 2026-11-23 21:02:42,2026-11-23,9.4.1,1,Negatif,Negatif,lambat tokai
-2026-11-23 21:01:44,2026-11-23,9.4.1,1,Negatif,Negatif,sampis bet jaringan lag
+2026-11-23 21:01:44,2026-11-23,9.4.1,1,Negatif,Negatif,sampis banget jaringan lag
 2026-11-23 21:00:32,2026-11-23,9.4.1,5,Positif,Netral,kakada loker supir personal tidak
 2026-11-23 20:56:22,2026-11-23,9.3.0,3,Netral,Negatif,kuota mahal tapi wilayah jakarta pusat daerah sawah mash susah sinyal kacau setting kanan kiri ttap lambat pengaruh jaringan bukn
 2026-11-23 20:56:02,2026-11-23,Tidak Diketahui,1,Negatif,Negatif,jringn jlkk jellek mahal jellek
@@ -457,7 +457,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-22 22:12:26,2026-11-22,Tidak Diketahui,4,Positif,Netral,sangat bagus jaringan wilayah cukup bagus tapi listrik mati mati paket data wortid saran paket bln biaya beli jangka
 2026-11-22 22:05:09,2026-11-22,Tidak Diketahui,1,Negatif,Negatif,paket mahal wkkwkw embel tidak_jelas berat
 2026-11-22 22:02:31,2026-11-22,9.3.0,1,Negatif,Negatif,bobrok
-2026-11-22 21:57:38,2026-11-22,9.4.1,1,Negatif,Negatif,program extra gembira buruk banget claim tapi bug error alhasil tidak msuk kuota alas tidak_jelas corrupt bet
+2026-11-22 21:57:38,2026-11-22,9.4.1,1,Negatif,Negatif,program extra gembira buruk banget claim tapi bug error alhasil tidak msuk kuota alas tidak_jelas corrupt banget
 2026-11-22 21:52:37,2026-11-22,Tidak Diketahui,1,Negatif,Negatif,loading lamah
 2026-11-22 21:51:48,2026-11-22,Tidak Diketahui,1,Negatif,Negatif,sinyal busuk
 2026-11-22 21:50:27,2026-11-22,9.4.1,1,Negatif,Negatif,harga paket mahal parah banget maap bgni sadar gercep
@@ -747,7 +747,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-21 18:03:08,2026-11-21,9.4.0,1,Negatif,Negatif,ayo kawan rame tidak wort dipakai harga kualitas jaringan tidak padan komen sblm hilang delete hahaaha mauk
 2026-11-21 18:00:09,2026-11-21,9.0.1,1,Negatif,Negatif,mahal harga pekt internetnyatapi sinyal parah bangetmakin kemari buruk sinyal
 2026-11-21 17:56:12,2026-11-21,9.4.0,1,Negatif,Negatif,buruk member ngeklaim extra gembira new susah banget pelanggan buruk
-2026-11-21 17:44:33,2026-11-21,9.0.1,2,Negatif,Negatif,metode pembayaran loading lambat bet tolong
+2026-11-21 17:44:33,2026-11-21,9.0.1,2,Negatif,Negatif,metode pembayaran loading lambat banget tolong
 2026-11-21 17:41:05,2026-11-21,9.4.0,1,Negatif,Negatif,kartu lebih mahal paket internet kartu barumohon jasa
 2026-11-21 17:36:30,2026-11-21,9.4.0,5,Positif,Negatif,tolong jaringan mati gara gara jaringan harga mahala tidak_banding kualitas jaringan tolong senang senang
 2026-11-21 17:32:56,2026-11-21,9.4.0,2,Negatif,Netral,paket data cepat habis
@@ -1296,7 +1296,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-19 00:06:13,2026-11-19,Tidak Diketahui,1,Negatif,Negatif,males pakai nisinyal lemotharga mahalapk bottkagak duluapa korupsi layanan buruk padahal andal dipelosoksekarang tidak pindah indosat lebih layak beli
 2026-11-19 00:00:06,2026-11-19,9.3.0,1,Negatif,Negatif,jaringan telkomselnya susah tapi tidak_ada perusahaanya paket mahal tapi jaringangannya miskin kecewa banget
 2026-11-18 23:58:20,2026-11-18,9.4.0,1,Negatif,Negatif,tidak_bisa akses
-2026-11-18 23:57:55,2026-11-18,9.4.1,2,Negatif,Negatif,jaringan lag kalisuka hilangmau data seluler wifi ajamahal lgtolong gaenak bet gni
+2026-11-18 23:57:55,2026-11-18,9.4.1,2,Negatif,Negatif,jaringan lag kalisuka hilangmau data seluler wifi ajamahal lgtolong gaenak banget gni
 2026-11-18 23:46:19,2026-11-18,9.4.0,1,Negatif,Negatif,mahal banget banget kartu
 2026-11-18 23:45:50,2026-11-18,Tidak Diketahui,1,Negatif,Negatif,sedot pulsa tanpa gangguanmending cari solusi saran
 2026-11-18 23:30:47,2026-11-18,9.4.1,1,Negatif,Negatif,buka lambat ngeloading jaringan jga lambat beli paket mahal tapi jaringan internet lambat parah padahal kualitas sinyal bagus
@@ -1466,7 +1466,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-17 23:30:20,2026-11-17,9.4.1,1,Negatif,Negatif,harga paket kuota mahal
 2026-11-17 23:27:03,2026-11-17,9.4.0,1,Negatif,Negatif,sinyal busuk
 2026-11-17 23:23:03,2026-11-17,9.4.0,1,Negatif,Negatif,lanjur kecewa bye
-2026-11-17 23:22:22,2026-11-17,9.4.0,2,Negatif,Netral,beli kuota murah harga malah mahal kuota konyol bet
+2026-11-17 23:22:22,2026-11-17,9.4.0,2,Negatif,Netral,beli kuota murah harga malah mahal kuota konyol banget
 2026-11-17 23:20:36,2026-11-17,9.4.0,1,Negatif,Negatif,jaringan sangat berat tolong wilayah semarang
 2026-11-17 23:14:29,2026-11-17,7.5.0,1,Negatif,Negatif,jaringan lag beli mahal
 2026-11-17 22:41:41,2026-11-17,9.3.0,1,Negatif,Negatif,boros banget paket habis gila cuba kartu pulsa tenggang aktif saldo hangus lebih padahal nomor konferensi paket aktif malah hangus asem
@@ -1845,7 +1845,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-15 20:51:47,2026-11-15,9.4.0,1,Negatif,Negatif,tidak_rekomen pakai kartu perdana gaming efootball sby kandang sidoarjo balongbendo lag patah parah sgt rugi pmakai kartu prabayar
 2026-11-15 20:48:45,2026-11-15,Tidak Diketahui,1,Negatif,Negatif,operator paling tidak niat jual paket paling mahal tapi layanan internet jaringan lambat tidak_stabil ganti operator
 2026-11-15 20:48:12,2026-11-15,Tidak Diketahui,2,Negatif,Negatif,udahlah mahal kualitas tingkat malah turun sinyal tembah buruk pindah posisi hilang sinyal padahal restart sinyal stabil
-2026-11-15 20:47:28,2026-11-15,Tidak Diketahui,5,Positif,Negatif,jaringan buruk kuota mahal komplain restart restart lag ganggu bet buruk emng
+2026-11-15 20:47:28,2026-11-15,Tidak Diketahui,5,Positif,Negatif,jaringan buruk kuota mahal komplain restart restart lag ganggu banget buruk emng
 2026-11-15 20:43:33,2026-11-15,9.4.0,1,Negatif,Negatif,jaringan lambat pantes kartu
 2026-11-15 20:37:08,2026-11-15,9.4.0,1,Negatif,Negatif,tidak_jelas harga mahal tapi kualitas jaring lambat nol
 2026-11-15 20:36:13,2026-11-15,9.4.0,1,Negatif,Negatif,jaringan sinyal liat tapi tidak_bisa buka lambat banget tidak_muncul kuota beli padahal buruk banget sinyal buruk buruk
@@ -1905,7 +1905,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-15 16:19:54,2026-11-15,9.4.0,5,Positif,Netral,percaya
 2026-11-15 16:15:09,2026-11-15,Tidak Diketahui,1,Negatif,Netral,jangan beli didownload jaringan ultra super buruk
 2026-11-15 16:13:48,2026-11-15,9.4.0,1,Negatif,Negatif,tolong sinyal daerah cikarang selatan jangan mahal doank tapi sinyal tolong game lag tolong jangan mahal doank
-2026-11-15 15:49:13,2026-11-15,9.4.0,4,Positif,Negatif,nambah paket kikir bet kikir
+2026-11-15 15:49:13,2026-11-15,9.4.0,4,Positif,Negatif,nambah paket kikir banget kikir
 2026-11-15 15:45:52,2026-11-15,9.4.0,1,Negatif,Negatif,provider mahal sinyal susah buruk
 2026-11-15 15:45:16,2026-11-15,9.4.0,1,Negatif,Netral,balikin internet sakti
 2026-11-15 15:23:37,2026-11-15,9.3.0,1,Negatif,Netral,pulsa kurang padahal paketgak jls
@@ -2093,7 +2093,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-14 17:32:02,2026-11-14,9.4.0,1,Negatif,Negatif,harga mahal tapi sinyal buruk youtube buffering playing some game lagging durasi lag kocak
 2026-11-14 17:29:59,2026-11-14,9.4.0,1,Negatif,Negatif,lebih tidak_bisa login padahal cabut pasang kartu fisik send link login tulis salah bagaiaman tidak bantu
 2026-11-14 17:20:33,2026-11-14,Tidak Diketahui,5,Positif,Positif,banget game senang
-2026-11-14 17:01:47,2026-11-14,8.0.1,4,Positif,Netral,saran pngguna thun smpai skarang tetapi stiap hrga sharusnya mndpat promo brtahan skarang saing shingga bnyak tman tidak brtahan
+2026-11-14 17:01:47,2026-11-14,8.0.1,4,Positif,Netral,saran pngguna thun smpai tetapi stiap hrga sharusnya mndpat promo brtahan saing shingga bnyak tman tidak brtahan
 2026-11-14 16:53:07,2026-11-14,9.3.0,1,Negatif,Negatif,isi pulsa notifikasi sms pulsa tetapi pulsa pulsa potong tanpa_ada notifikasi bukan nominal potong tetapi potong tanpa_ada notifikasi tidak beli paket darurat tidak anggap konten bayar komplain grapari tetapi jarak tempuh grapari lebih paket mahal
 2026-11-14 16:48:25,2026-11-14,9.4.0,1,Negatif,Negatif,jaringan buruk raya paket mahal raya mari bijak pindah operator
 2026-11-14 16:44:47,2026-11-14,9.4.0,1,Negatif,Negatif,paket internet kuota simpati mahal kuota harga langit agak turunin harga
@@ -2381,7 +2381,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-13 07:39:21,2026-11-13,9.4.0,1,Negatif,Negatif,paket buruk ngapain youtube paket sedia nggk
 2026-11-13 07:33:41,2026-11-13,9.4.0,1,Negatif,Negatif,maketin gagal
 2026-11-13 07:31:11,2026-11-13,9.3.0,1,Negatif,Negatif,simpati aktif paket habis aktif habis gilaa gilaa padahal pakai pulsa internet paksa beli pulsa sinyal parah buruk bisnis dzolim
-2026-11-13 07:25:59,2026-11-13,Tidak Diketahui,1,Negatif,Negatif,isi kuota lot skarang malah tidak_bisa buka skali
+2026-11-13 07:25:59,2026-11-13,Tidak Diketahui,1,Negatif,Negatif,isi kuota lot malah tidak_bisa buka skali
 2026-11-13 07:12:23,2026-11-13,9.4.0,1,Negatif,Negatif,loading paket internet mahal koneksi internet buruk
 2026-11-13 06:58:47,2026-11-13,9.4.0,1,Negatif,Netral,aktif kartu relatif singkatkita paksa aktif isi pulsa pulsa suka hilang tanpa_ada riwayat transaksi internet suka lambat area besarsibuk harga kuota mahal sadar economi lebih stamp gratis kuota gratis sekali tapi respect apklikator utara pahit manis pakai
 2026-11-13 06:54:11,2026-11-13,9.4.0,1,Negatif,Negatif,beli paket mahal sinyal buruk
@@ -3186,7 +3186,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-09 15:35:21,2026-11-09,9.3.0,1,Negatif,Negatif,lag lag harga tidak_sesuai promo aneh banget
 2026-11-09 15:34:33,2026-11-09,9.3.0,1,Negatif,Negatif,serius tidak_ada evaluasi sekali harga paket mahal kuota cepat hbis lambat
 2026-11-09 15:32:55,2026-11-09,9.4.0,2,Negatif,Negatif,mahal beli hilsng
-2026-11-09 15:28:44,2026-11-09,9.4.0,1,Negatif,Negatif,harga paket mahal buruk bet
+2026-11-09 15:28:44,2026-11-09,9.4.0,1,Negatif,Negatif,harga paket mahal buruk banget
 2026-11-09 15:27:11,2026-11-09,9.3.0,1,Negatif,Negatif,harga kuota internet jangka sisa kuota tidak habis hilang sinyal lambat
 2026-11-09 15:25:31,2026-11-09,9.4.0,1,Negatif,Negatif,harga paket internet mahal tapi kualitas busuk buka malah busuk parah busuk bangkrut
 2026-11-09 15:07:28,2026-11-09,Tidak Diketahui,2,Negatif,Negatif,kualitas sangat berat tidak akomodasi situasi
@@ -3430,7 +3430,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-07 23:52:12,2026-11-07,Tidak Diketahui,3,Netral,Negatif,lag bjir beli kuota tidak_bisa pencet
 2026-11-07 23:47:41,2026-11-07,9.3.0,2,Negatif,Negatif,buruk isi paket aktif mahal internet blokir belum lunas paket darurat paket data tidak pakai malah habis heran internet blokir data habis kecewa pakai buruk skali
 2026-11-07 23:45:20,2026-11-07,9.4.0,5,Positif,Positif,mantap sangat suka tapi jan ilangin paket murah jan ganti murahin kartu masak malah murah kartu
-2026-11-07 23:44:01,2026-11-07,9.2.0,1,Negatif,Netral,skarang tidak adaa tukar poin data
+2026-11-07 23:44:01,2026-11-07,9.2.0,1,Negatif,Netral,tidak adaa tukar poin data
 2026-11-07 23:36:03,2026-11-07,9.4.0,2,Negatif,Positif,sinyal lumayan namun mayoritas paket kuota kurang ramah kantong
 2026-11-07 23:31:36,2026-11-07,9.4.0,5,Positif,Positif,sangat mantap bagus
 2026-11-07 23:24:22,2026-11-07,9.4.0,1,Negatif,Netral,sinyal
@@ -3774,7 +3774,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-05 19:23:43,2026-11-05,9.3.0,5,Positif,Positif,murah
 2026-11-05 19:21:38,2026-11-05,9.2.1,3,Netral,Negatif,aga lambat
 2026-11-05 19:18:25,2026-11-05,9.4.0,1,Negatif,Negatif,beli kuota game max silver tapi paket tidak_bisa
-2026-11-05 19:12:03,2026-11-05,9.4.0,1,Negatif,Negatif,harga mahal jaringan lambat bet cape
+2026-11-05 19:12:03,2026-11-05,9.4.0,1,Negatif,Negatif,harga mahal jaringan lambat banget cape
 2026-11-05 19:05:49,2026-11-05,9.4.0,5,Positif,Positif,terima_kasih team support bantu selesai kendala terima_kasih respon
 2026-11-05 18:56:55,2026-11-05,5.5.0,1,Negatif,Negatif,rusak rusak jaringan tidak_bagus pakai acara registrasi abal malah kuota kartu tidak_bisa pakai registrasi tselid error capai rusak pindah jaringan operator block masal
 2026-11-05 18:48:59,2026-11-05,7.0.0,1,Negatif,Netral,jaringan ngelus dada extra sabarsebagai wni
@@ -3939,7 +3939,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-04 16:35:14,2026-11-04,Tidak Diketahui,1,Negatif,Negatif,sisa kuota sekian aktif habis isi kuota sisa kuota akumulasi akumulasi sisa akumulasi
 2026-11-04 16:08:00,2026-11-04,9.3.0,5,Positif,Netral,masyaallah biasah senang banget
 2026-11-04 16:07:34,2026-11-04,Tidak Diketahui,1,Negatif,Negatif,lambat
-2026-11-04 15:51:49,2026-11-04,9.4.0,1,Negatif,Negatif,mahal gaje bet jaringan tidak paket data mahal
+2026-11-04 15:51:49,2026-11-04,9.4.0,1,Negatif,Negatif,mahal gaje banget jaringan tidak paket data mahal
 2026-11-04 15:27:07,2026-11-04,9.4.0,2,Negatif,Negatif,lebih tapi biaya mahal
 2026-11-04 15:22:04,2026-11-04,9.4.0,1,Negatif,Negatif,jaringan tidak_ada loading
 2026-11-04 15:19:55,2026-11-04,9.4.0,5,Positif,Positif,sangat bagus bantu
@@ -4088,7 +4088,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-03 18:28:38,2026-11-03,Tidak Diketahui,1,Negatif,Positif,bagus sebenarmya tapi buka buka dowonload keluh
 2026-11-03 18:23:17,2026-11-03,9.4.0,4,Positif,Netral,sinyal kuat pelosok desagununghutanpantai aamiin
 2026-11-03 18:00:46,2026-11-03,9.4.0,4,Positif,Netral,lebih kuatin jaringan
-2026-11-03 17:56:29,2026-11-03,9.4.0,1,Negatif,Negatif,lambat bet paket tapi tidak_bisa pakai
+2026-11-03 17:56:29,2026-11-03,9.4.0,1,Negatif,Negatif,lambat banget paket tapi tidak_bisa pakai
 2026-11-03 17:29:46,2026-11-03,9.4.0,5,Positif,Netral,bitang
 2026-11-03 17:12:45,2026-11-03,9.4.0,1,Negatif,Negatif,hebat iya kuota habis sekali tidak_ada potong pulsa gapapa internet non paket tapi dipakai pulsa ngurang internet non paket tidak_bisa dipakai pakai beli malah sulit niat gas pakai
 2026-11-03 16:42:44,2026-11-03,Tidak Diketahui,1,Negatif,Negatif,lambat metode pembayaran
@@ -4392,7 +4392,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-11-01 20:48:06,2026-11-01,9.3.0,1,Negatif,Negatif,singkat mahal lag lokasi pvj bandung
 2026-11-01 20:44:09,2026-11-01,9.3.0,1,Negatif,Netral,update dak jelaspaket mahaljaringan error padahal setia pakai
 2026-11-01 20:42:01,2026-11-01,9.4.0,1,Negatif,Negatif,tidak_bisa beli kuata hospot
-2026-11-01 20:40:32,2026-11-01,9.4.0,1,Negatif,Negatif,pinjem nelponin ganggu bet ganti kartu padahal langganan banget pakai kartu
+2026-11-01 20:40:32,2026-11-01,9.4.0,1,Negatif,Negatif,pinjem nelponin ganggu banget ganti kartu padahal langganan banget pakai kartu
 2026-11-01 20:39:09,2026-11-01,Tidak Diketahui,1,Negatif,Negatif,kuota mahal sinyal buruk ngecewain banget
 2026-11-01 20:25:32,2026-11-01,Tidak Diketahui,1,Negatif,Negatif,lag parah bugnya susah akseserror bugnya saranin pakai basic
 2026-11-01 20:23:35,2026-11-01,Tidak Diketahui,1,Negatif,Netral,tidak tidak update jengkel banget buka update
@@ -4888,7 +4888,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-30 05:54:27,2026-10-30,9.4.0,1,Negatif,Negatif,berat harga kuota mahal
 2026-10-30 05:46:52,2026-10-30,9.3.0,1,Negatif,Negatif,buruk tidak_bisa beli kuota
 2026-10-30 04:19:30,2026-10-30,9.3.0,5,Positif,Negatif,pinjam paket tidak_bisa
-2026-10-30 03:47:03,2026-10-30,9.3.0,5,Positif,Positif,bagus bet kualitas
+2026-10-30 03:47:03,2026-10-30,9.3.0,5,Positif,Positif,bagus banget kualitas
 2026-10-30 03:45:22,2026-10-30,9.3.0,1,Negatif,Negatif,sisa kuota internet tidak hangus resmi terbit surat edar menkomdigi nomor agustus lapor patuh operator seluler paling lambat september terbit tapi kuota sisa internet hangusga tidak patuh
 2026-10-30 03:37:11,2026-10-30,9.3.0,1,Negatif,Negatif,banget turunin layanan langgan asa buruk pelanggan servicenya susah hubungin ainya tidak bantu selesai hubung chat csnya sangat lambat respon gantung lambat troubleshooting naikin pakai buruk csnya
 2026-10-30 03:26:33,2026-10-30,9.3.0,1,Negatif,Negatif,taik lambat banget pahal lemotsampah
@@ -5261,7 +5261,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-27 21:19:50,2026-10-27,9.3.0,5,Positif,Negatif,kenpa motode bayar gagal
 2026-10-27 21:19:27,2026-10-27,9.3.0,1,Negatif,Negatif,pulsa potong
 2026-10-27 21:13:54,2026-10-27,Tidak Diketahui,1,Negatif,Negatif,buruk nurutin boomer desain berat informasi tidak_guna harga mahal jaringan payah uras duit rakyat
-2026-10-27 20:58:19,2026-10-27,9.3.0,1,Negatif,Negatif,pulsa beli paket gagal pulsa padahal back pulsa byr pakai gopay gbs pakai ovo rumit bet orbit pindah
+2026-10-27 20:58:19,2026-10-27,9.3.0,1,Negatif,Negatif,pulsa beli paket gagal pulsa padahal back pulsa byr pakai gopay gbs pakai ovo rumit banget orbit pindah
 2026-10-27 20:55:14,2026-10-27,9.3.0,2,Negatif,Negatif,tidak_bisa pinjem paket
 2026-10-27 20:54:31,2026-10-27,9.3.0,3,Netral,Negatif,jaringanbeli mahal data tapi lag
 2026-10-27 20:49:07,2026-10-27,9.3.0,1,Negatif,Negatif,sinyal jelektiba hilang game logika tidak_ada tidak lancar tidak_hilang game sinyal hilang tibakadang mikir asa costumer tidak
@@ -5402,7 +5402,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-26 22:08:51,2026-10-26,Tidak Diketahui,1,Negatif,Negatif,sebernarnya tidak jaringan klean isi paket buka google loading jaringan pikir beli paket pakai daun tidak_tahu ngomong pakai bahasa bahasa manusia tidak ngerti org
 2026-10-26 22:02:27,2026-10-26,9.4.0,1,Negatif,Negatif,turunin jabodetabek paket harga kualitas malah turun tolong sore sinyal hilang
 2026-10-26 21:51:40,2026-10-26,9.3.0,1,Negatif,Negatif,beli paket gagal lambat
-2026-10-26 21:50:26,2026-10-26,9.3.0,1,Negatif,Negatif,internet sangat buruk skarang
+2026-10-26 21:50:26,2026-10-26,9.3.0,1,Negatif,Negatif,internet sangat buruk
 2026-10-26 21:48:24,2026-10-26,9.4.0,3,Netral,Negatif,tidak_jelas masak ber login login muluh tidak_jelas padahal tidak hapus tidak_jelas risih
 2026-10-26 21:45:04,2026-10-26,9.3.0,1,Negatif,Netral,sinyal
 2026-10-26 21:42:49,2026-10-26,Tidak Diketahui,1,Negatif,Negatif,pakai karen lebih jaringan harga lebih mahal tetapi salah malah lebih lambat tidak padan harga jaringan suka hilang tolong jaringan milik alas kuat lebih
@@ -5510,7 +5510,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-26 02:38:10,2026-10-26,Tidak Diketahui,1,Negatif,Negatif,gila banget harga
 2026-10-26 02:07:32,2026-10-26,Tidak Diketahui,1,Negatif,Negatif,sesuai undang lupa padahal paket internet larang hangus malah hangus padahal sisa jatuh tipu lapor
 2026-10-26 02:04:15,2026-10-26,9.3.0,1,Negatif,Negatif,berat benget bangke harga ngotak
-2026-10-26 01:50:50,2026-10-26,9.3.0,5,Positif,Negatif,pulsa latter jangan kejam bet padahal kuota ter isi emng belum_sempat beli pulsa belum lunas anjir blokir akses internet kuota hangus diem diem bae tanpa paket
+2026-10-26 01:50:50,2026-10-26,9.3.0,5,Positif,Negatif,pulsa latter jangan kejam banget padahal kuota ter isi emng belum_sempat beli pulsa belum lunas anjir blokir akses internet kuota hangus diem diem bae tanpa paket
 2026-10-26 01:11:52,2026-10-26,9.3.0,3,Netral,Netral,kurang puassulit tuk
 2026-10-26 01:03:32,2026-10-26,9.3.0,1,Negatif,Negatif,jaringan busuk busuk tikus koruptor
 2026-10-26 00:53:28,2026-10-26,6.9.1,1,Negatif,Negatif,indihome lambat mahal layanan buruk
@@ -5626,7 +5626,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-25 14:14:45,2026-10-25,9.3.0,2,Negatif,Negatif,update tidak_mau buka update update malah tidak_mau buka
 2026-10-25 14:10:56,2026-10-25,9.3.0,1,Negatif,Negatif,gila harga kuota mahal banget pen nyekek isi dompet bgtt
 2026-10-25 14:10:52,2026-10-25,9.3.0,1,Negatif,Netral,aktif woe
-2026-10-25 14:02:41,2026-10-25,9.3.0,1,Negatif,Netral,anjir sinyal buruk bet jawa demak kebonagung padahal stabil maen fifa leg
+2026-10-25 14:02:41,2026-10-25,9.3.0,1,Negatif,Netral,anjir sinyal buruk banget jawa demak kebonagung padahal stabil maen fifa leg
 2026-10-25 14:02:22,2026-10-25,9.3.0,1,Negatif,Netral,negelegjaringan tidak_enak
 2026-10-25 13:59:14,2026-10-25,9.3.0,5,Positif,Netral,layanan
 2026-10-25 13:55:22,2026-10-25,9.3.0,5,Positif,Netral,mudah tolong
@@ -5685,7 +5685,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-25 07:03:16,2026-10-25,Tidak Diketahui,1,Negatif,Negatif,mahal lag lag
 2026-10-25 07:02:54,2026-10-25,9.3.0,1,Negatif,Negatif,kuota lokal game bar sinyal alhasil lag bar sinyal
 2026-10-25 06:59:48,2026-10-25,9.3.0,1,Negatif,Negatif,harga kuota mahal
-2026-10-25 06:24:21,2026-10-25,9.3.0,4,Positif,Positif,suka trz buka mkasih blsan
+2026-10-25 06:24:21,2026-10-25,9.3.0,4,Positif,Positif,suka trz buka blsan
 2026-10-25 05:31:30,2026-10-25,9.3.0,1,Negatif,Netral,beli paket gbdengan harga tggl oktober tapi paket tggl oktober tidak aktifmalu maluin
 2026-10-25 05:21:39,2026-10-25,9.3.0,1,Negatif,Negatif,beli paket jaringan penuh tapi hilang timbul korupsi
 2026-10-25 04:59:16,2026-10-25,9.3.0,5,Positif,Netral,ngomong
@@ -6076,7 +6076,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-22 21:33:52,2026-10-22,9.3.0,1,Negatif,Negatif,sinyal bagus woyy pakai wifi beli kuota ngapa tidak_bisa emosi setan
 2026-10-22 21:33:18,2026-10-22,9.3.0,5,Positif,Positif,bagus banget
 2026-10-22 21:23:33,2026-10-22,Tidak Diketahui,5,Positif,Negatif,bales komentar dasar pelit kartu busuk susah sinyal mahal anj emosi pagi sore sinyal tidak setabil malem busuk sinyal kalu sinyal susah turunin anj diskon ngapa sinyal susah beli kuota harga tidak ngotak harga tidak logis banget diskon sinyal buruk anj dasar pelit kikir katain tidak dibales anj
-2026-10-22 21:22:19,2026-10-22,9.3.0,4,Positif,Negatif,beli paket tapi skarang tidak_bisa beli paket metode bayar error padahal uninstall gimna
+2026-10-22 21:22:19,2026-10-22,9.3.0,4,Positif,Negatif,beli paket tapi tidak_bisa beli paket metode bayar error padahal uninstall gimna
 2026-10-22 21:17:25,2026-10-22,9.0.1,1,Negatif,Negatif,sinyal lambat paket kuota mahal sinyal buruk buruk
 2026-10-22 21:16:54,2026-10-22,9.3.0,1,Negatif,Netral,kualitas internet sangat sangat jengkel note
 2026-10-22 21:16:28,2026-10-22,9.3.0,1,Negatif,Negatif,paling bagus jaringan jaringan elite paket mahal cepat sulit kalah cepat kartu tri lebih stabil streaming nonton youtube lag nauzubillah jaringan elit paket mahal cepat sulit
@@ -6898,7 +6898,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-18 16:21:38,2026-10-18,9.3.0,1,Negatif,Negatif,promo beli ehh tidak bisakatanya jaringan errortp paket mahal malah
 2026-10-18 16:18:37,2026-10-18,9.3.0,1,Negatif,Negatif,jaringan lag bagusin jaringan kalah buruk
 2026-10-18 16:15:33,2026-10-18,9.3.0,5,Positif,Netral,sinyal asu
-2026-10-18 16:08:16,2026-10-18,9.3.0,5,Positif,Netral,skarang lemah sinyal padahal paket kuota tidak_ada murah
+2026-10-18 16:08:16,2026-10-18,9.3.0,5,Positif,Netral,lemah sinyal padahal paket kuota tidak_ada murah
 2026-10-18 16:07:09,2026-10-18,9.3.0,2,Negatif,Negatif,tolong rol
 2026-10-18 16:03:35,2026-10-18,7.1.0,1,Negatif,Negatif,jaringan bhos paket mahal jaringan buruk buang uang
 2026-10-18 15:55:23,2026-10-18,9.3.0,1,Negatif,Netral,alami pindh akun padahal akun
@@ -7061,7 +7061,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-17 18:08:19,2026-10-17,9.3.0,2,Negatif,Negatif,buruk banget jaringan game padahal lingkung tolong beli mahal mahal paket lemmot babi
 2026-10-17 18:07:17,2026-10-17,9.2.0,2,Negatif,Negatif,harga kuota naek tidak_bisa tah ngurangin harga
 2026-10-17 18:04:16,2026-10-17,9.3.0,1,Negatif,Negatif,gila tidak ganti kartu harga paket mahal setan
-2026-10-17 17:21:28,2026-10-17,8.0.1,2,Negatif,Negatif,skarang tidak_bisa dbuka paket mahal program poin data tidak_jelas
+2026-10-17 17:21:28,2026-10-17,8.0.1,2,Negatif,Negatif,tidak_bisa dbuka paket mahal program poin data tidak_jelas
 2026-10-17 17:18:37,2026-10-17,9.3.0,3,Netral,Negatif,terlalu boros jir
 2026-10-17 17:10:55,2026-10-17,9.3.0,1,Negatif,Negatif,sinyal kurang marah marah anyeb ojol slot gading serpong
 2026-10-17 16:51:19,2026-10-17,9.3.0,1,Negatif,Negatif,mahal banget paket
@@ -7135,7 +7135,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-17 06:11:15,2026-10-17,9.3.0,1,Negatif,Netral,muat
 2026-10-17 06:03:27,2026-10-17,9.3.0,1,Negatif,Negatif,mahal tolong paket internet
 2026-10-17 06:01:53,2026-10-17,9.3.0,5,Positif,Positif,sangat murah membntu
-2026-10-17 05:50:14,2026-10-17,9.3.0,1,Negatif,Negatif,nomor skarang sangat lambat super lambat super ganggu promo kurang tarik
+2026-10-17 05:50:14,2026-10-17,9.3.0,1,Negatif,Negatif,nomor sangat lambat super lambat super ganggu promo kurang tarik
 2026-10-17 05:44:35,2026-10-17,9.3.0,1,Negatif,Negatif,telkmsel ngtd kuota yutub tapi tidak_bisa dipakai sekalipaket internet korupsi astaga
 2026-10-17 05:41:04,2026-10-17,6.10.0-9,1,Negatif,Negatif,tidak patuh putus beli kuota hangus beli kuota data bukan_beli aktif aktif habis kuota hangus beli data rollover tapi terlalu mahal putisan mkenyatalan paket data tidak_ada sanksi provider langgar putus wapres
 2026-10-17 04:39:42,2026-10-17,Tidak Diketahui,1,Negatif,Negatif,tidak rispek banget wok jaringan tapi tidak_bisa buka sekali bagus tbtb ngepush malah tidak_ada imo jaringan
@@ -7299,7 +7299,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-16 06:56:46,2026-10-16,9.2.0,1,Negatif,Netral,sinyal suka hilangjaringan lemotpaketan mahal
 2026-10-16 06:21:26,2026-10-16,9.3.0,1,Negatif,Negatif,klaim extra gembira malah tidak_bisa klaim malah tidak_masuk hadeh
 2026-10-16 05:51:51,2026-10-16,9.3.0,1,Negatif,Netral,website registrasi tidak merespon website plus merespon lebih cepat website error
-2026-10-16 05:24:40,2026-10-16,9.4.0,3,Netral,Negatif,keluar_paksa skarang xiaomi note
+2026-10-16 05:24:40,2026-10-16,9.4.0,3,Netral,Negatif,keluar_paksa xiaomi note
 2026-10-16 04:16:14,2026-10-16,9.3.0,4,Positif,Negatif,tidak_bisa
 2026-10-16 03:46:32,2026-10-16,9.2.1,1,Negatif,Netral,buruk prank hadiah
 2026-10-16 03:14:36,2026-10-16,Tidak Diketahui,1,Negatif,Negatif,gaur jaringan lambat paket cepat bnar habis
@@ -7347,7 +7347,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-15 21:23:51,2026-10-15,9.3.0,1,Negatif,Negatif,telkontol lag monyet
 2026-10-15 21:17:03,2026-10-15,6.13.0,5,Positif,Negatif,tidak_bisa login beli paket gagal kendala
 2026-10-15 21:15:28,2026-10-15,9.3.0,1,Negatif,Negatif,lag indihomenya aduh parah mati listrik lag hujan lag kemarau lag bagus
-2026-10-15 21:12:39,2026-10-15,9.3.0,1,Negatif,Negatif,dulunukerin kuota pakai poin ajagak double pakai pulsa segalaudah harga paket ngelunjakdan paling aneh stamplepas nyampe gopay danatiba bet stok abispadahal penggunaemang agak
+2026-10-15 21:12:39,2026-10-15,9.3.0,1,Negatif,Negatif,dulunukerin kuota pakai poin ajagak double pakai pulsa segalaudah harga paket ngelunjakdan paling aneh stamplepas nyampe gopay danatiba banget stok abispadahal penggunaemang agak
 2026-10-15 21:09:21,2026-10-15,Tidak Diketahui,1,Negatif,Negatif,lag padahal sinyal ijo
 2026-10-15 21:06:01,2026-10-15,9.3.0,1,Negatif,Negatif,jaringan sangat amat buruk jaringansignal hilang tidak_ada online akses
 2026-10-15 21:04:43,2026-10-15,8.3.0,1,Negatif,Netral,mahal banget jir senang
@@ -7571,7 +7571,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-14 15:54:02,2026-10-14,9.3.0,1,Negatif,Negatif,woy pulsa potong padahal pakai wifi babi operator isi maling korupsi mati pulsa babhi
 2026-10-14 15:37:23,2026-10-14,9.3.0,1,Negatif,Negatif,sumpah kecewa banget tapi tahap kecewa kuota harga nyajaringan lag terusudah mahal kualotas tidak_ada
 2026-10-14 15:34:15,2026-10-14,9.3.0,1,Negatif,Negatif,loading poll
-2026-10-14 15:22:55,2026-10-14,9.3.0,1,Negatif,Negatif,jaringan lag bet suki
+2026-10-14 15:22:55,2026-10-14,9.3.0,1,Negatif,Negatif,jaringan lag banget suki
 2026-10-14 15:21:54,2026-10-14,9.1.0,1,Negatif,Negatif,jaringan suka hilang lambat harga lumayan mahal error tulis sisa kuota tidak_benar beli kuota tapi situ tera sisa kuota padahal habis
 2026-10-14 15:19:40,2026-10-14,9.3.0,1,Negatif,Negatif,setress dev tidak_mau perbaikimasa login gara gara tidak buka buka ngulang masukin nomor iyah masukin loginini malah salah
 2026-10-14 14:59:06,2026-10-14,9.3.0,1,Negatif,Negatif,harga peket mahaljaringan lemotkeputusan blum laksanakanpaket hangus
@@ -7682,7 +7682,7 @@ at,tanggal_ulasan,appVersion,score,sentiment,sentimen_leksikon,teks_klasik
 2026-10-13 21:38:55,2026-10-13,9.3.0,1,Negatif,Negatif,tolong paket internet promo mahal mahal bangetterus internet lambat
 2026-10-13 21:33:14,2026-10-13,Tidak Diketahui,1,Negatif,Negatif,sinyal buruk amat soregimana belum_normal lagiharga paket mahalsinyal buruk
 2026-10-13 21:32:48,2026-10-13,9.3.0,1,Negatif,Negatif,sinyal buruk padahal jakarta
-2026-10-13 21:30:13,2026-10-13,9.3.0,2,Negatif,Negatif,buruk banget sekali lag pembayaran tidak_masuk tolol bet kikir ngntd
+2026-10-13 21:30:13,2026-10-13,9.3.0,2,Negatif,Negatif,buruk banget sekali lag pembayaran tidak_masuk tolol banget kikir ngntd
 2026-10-13 21:16:46,2026-10-13,9.3.0,1,Negatif,Negatif,hancur jaringan nyh rugi adh
 2026-10-13 21:11:28,2026-10-13,Tidak Diketahui,1,Negatif,Netral,isp mnding jual batagor
 2026-10-13 21:05:59,2026-10-13,9.3.0,1,Negatif,Negatif,jaringan buruk sekali mahal kualitas jaringan buruk sekali nda naperbaiki kualitas harga tapi tidak tingkat kualitas jaringan buruk
