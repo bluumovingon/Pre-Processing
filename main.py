@@ -56,7 +56,8 @@ NEGATIVE_LEXICON = {
     'sedot', 'boros', 'rugi', 'sayang', 'busuk', 'ampas',
     'loading', 'aneh', 'ribet', 'rumit', 'ganggu',
     'salah', 'turun', 'keluh', 'kendala', 'ilang',
-    'kikir', 'habis', 'turunin', 'sumpah', 'gara', 'iklan',
+    'kikir', 'habis', 'turunin', 'naikin', 'sumpah', 'gara', 'iklan',
+    'tidak_tahu', 'kalah', 'pindah',
     # Token negasi (negatif di konteks positif)
     'tidak_bisa', 'tidak_jelas', 'tidak_stabil', 'tidak_sesuai',
     'tidak_guna', 'tidak_masuk', 'tidak_pernah', 'tidak_lancar',
@@ -73,7 +74,19 @@ POSITIVE_LEXICON = {
     'puas', 'senang', 'suka', 'best', 'gratis', 'stabil', 'praktis',
     'nyaman', 'setia', 'percaya', 'manfaat', 'reward', 'hadiah',
     'terima_kasih', 'terimakasih',
-    'lumayan', 'good', 'top', 'mantep', 'aman', 'untung',
+    'lumayan', 'good', 'top', 'mantep', 'aman', 'untung', 'sesuai', 'super',
+}
+
+# Kata topik netral — dibiarkan di Word Cloud Keseluruhan, tapi difilter
+# dari Word Cloud Positif & Negatif agar kata sentimen lebih menonjol
+NEUTRAL_TOPIC_WORDS = {
+    'paket', 'kuota', 'jaringan', 'sinyal', 'internet', 'pulsa', 'data',
+    'kartu', 'harga', 'nomor', 'provider', 'operator', 'simpati', 'indihome',
+    'wifi', 'youtube', 'game', 'sms', 'daerah', 'akun', 'sistem', 'fitur',
+    'beli', 'pakai', 'isi', 'buka', 'bayar', 'pembayaran', 'transaksi',
+    'update', 'login', 'akses', 'aktif', 'ganti', 'tukar', 'cek', 'sisa',
+    'kirim', 'ambil', 'jual', 'poin', 'saldo', 'tagihan', 'registrasi',
+    'layanan', 'langganan', 'langgan', 'layan', 'koneksi', 'metode',
 }
 
 # ────────────────────────────────────────────────────────────────────────────────
@@ -294,6 +307,12 @@ def step_3_preprocessing(df_clean):
         'juga', 'masih', 'sama', 'lagi', 'pernah', 'sekarang',
         'coba', 'pilih', 'bikin', 'main', 'mah', 'suruh', 'maaf',
         'ribu', 'jam', 'minggu', 'kota', 'terima', 'semoga', 'moga',
+        'the', 'menit', 'tanggal', 'malam', 'kemarin', 'belah', 'gilir',
+        'pokok', 'ulang', 'ubah', 'tinggal', 'bilang', 'beda', 'atur',
+        'minimal', 'full', 'sengaja', 'utama', 'butuh', 'alih', 'lihat',
+        'dapat', 'hadehh', 'bos', 'mas', 'kah', 'tidak_seperti',
+        'jangan_mahal', 'info', 'hasil', 'proses', 'tawar', 'batas',
+        'usaha', 'muncul', 'ekonomi', 'indonesia', 'konsumen',
         # Token negasi generik yang tidak informatif di word cloud
         'tidak_ada', 'belum_ada', 'tidak_punya', 'tidak_di',
         'tidak_ngotak', 'tidak_masuk',
@@ -507,7 +526,8 @@ def step_4_analysis_and_visualization(df_final):
             colormap=colormap,
             max_words=120,
             random_state=42,
-            collocations=False
+            collocations=False,
+            normalize_plurals=False
         ).generate(text_data)
 
         plt.figure(figsize=(14, 7))
@@ -523,16 +543,18 @@ def step_4_analysis_and_visualization(df_final):
     make_wordcloud(corpus_all, 'Word Cloud: Keseluruhan Ulasan MyTelkomsel',
                    'Blues', 'wordcloud_keseluruhan.png')
 
-    # Word Cloud Positif — filter kata-kata negatif agar word cloud bersih
-    corpus_pos_filtered = filter_corpus_by_sentiment(corpus_pos, NEGATIVE_LEXICON)
-    print(f"🛡️ Word Cloud Positif: {len(NEGATIVE_LEXICON)} kata negatif difilter.")
+    # Word Cloud Positif — filter kata negatif + topik netral agar kata sentimen menonjol
+    pos_exclude = NEGATIVE_LEXICON.union(NEUTRAL_TOPIC_WORDS)
+    corpus_pos_filtered = filter_corpus_by_sentiment(corpus_pos, pos_exclude)
+    print(f"🛡️ Word Cloud Positif: {len(pos_exclude)} kata (negatif + topik netral) difilter.")
     make_wordcloud(corpus_pos_filtered,
                    'Word Cloud: Ulasan Positif MyTelkomsel (Rating 4 - 5)',
                    'Greens', 'wordcloud_positif.png')
 
-    # Word Cloud Negatif — filter kata-kata positif agar word cloud bersih
-    corpus_neg_filtered = filter_corpus_by_sentiment(corpus_neg, POSITIVE_LEXICON)
-    print(f"🛡️ Word Cloud Negatif: {len(POSITIVE_LEXICON)} kata positif difilter.")
+    # Word Cloud Negatif — filter kata positif + topik netral agar keluhan menonjol
+    neg_exclude = POSITIVE_LEXICON.union(NEUTRAL_TOPIC_WORDS)
+    corpus_neg_filtered = filter_corpus_by_sentiment(corpus_neg, neg_exclude)
+    print(f"🛡️ Word Cloud Negatif: {len(neg_exclude)} kata (positif + topik netral) difilter.")
     make_wordcloud(corpus_neg_filtered,
                    'Word Cloud: Ulasan Negatif MyTelkomsel (Rating 1 - 2)',
                    'Reds', 'wordcloud_negatif.png')
