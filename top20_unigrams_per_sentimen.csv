@@ -1,0 +1,21 @@
+Rank,Kata (Semua),Frekuensi (Semua),Kata (Positif),Frekuensi (Positif),Kata (Negatif),Frekuensi (Negatif)
+1,paket,2893,paket,299,mahal,2483
+2,mahal,2780,bagus,241,paket,2426
+3,jaringan,2177,jaringan,161,jaringan,1916
+4,kuota,1793,kuota,160,kuota,1526
+5,harga,1571,beli,156,buruk,1435
+6,beli,1533,mahal,154,harga,1349
+7,buruk,1510,harga,137,sinyal,1319
+8,sinyal,1506,sinyal,131,beli,1290
+9,lambat,1080,tolong,119,lambat,953
+10,udah,928,pulsa,90,udah,843
+11,tidak_bisa,845,tidak_bisa,88,tidak_bisa,715
+12,pulsa,833,internet,84,pulsa,697
+13,internet,713,murah,76,internet,591
+14,tolong,612,bantu,74,data,474
+15,data,582,mudah,69,tidak_ada,444
+16,bagus,579,data,68,tolong,427
+17,tidak_ada,519,mantap,66,kartu,405
+18,kartu,480,lambat,59,hilang,401
+19,pakai,478,cepat,56,pakai,398
+20,hilang,459,kartu,56,pake,398
